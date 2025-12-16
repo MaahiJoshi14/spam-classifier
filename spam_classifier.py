@@ -32,3 +32,11 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 print("Accuracy:", accuracy_score(y_test, y_pred))
+
+# Custom message
+sample_message = ["Free money offer just for you"]
+sample_vector = vectorizer.transform(sample_message)
+prediction = model.predict(sample_vector)
+
+print("Sample Message Prediction:", prediction[0])
+
