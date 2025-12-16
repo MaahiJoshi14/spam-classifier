@@ -11,3 +11,11 @@ A simple machine learning project that classifies messages as spam or not spam u
 ## Description
 This project demonstrates a basic NLP-based machine learning pipeline including text vectorization and classification.
 
+## Example Usage
+The model can also predict custom messages.
+
+Example:
+Input: "Free money offer just for you"  
+Output: Spam
+
+
